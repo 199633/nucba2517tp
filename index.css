@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.contendor{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.rectangulo{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 21px 25px -9px rgba(253,249,249,0.75);
+    display: flex;
+}
+.logo{
+    display: flex;
+    height: 100%;
+    justify-content: start;
+}
+.contenedor2{
+    display: flex;
+    justify-content: end;
+
+}
+.menu{
+    display: flex;
+    margin: 10px;
+    justify-content: end;
+}
